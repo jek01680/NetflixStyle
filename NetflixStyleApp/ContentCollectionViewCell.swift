@@ -15,7 +15,7 @@ class ContentCollectionViewCell : UICollectionViewCell{
         super.layoutSubviews()
         
         //contentView기본객체에 서브뷰로 올려야 보여질수있음
-        contentView.backgroundColor = .white
+        contentView.backgroundColor = .black
         contentView.layer.cornerRadius = 5
         contentView.clipsToBounds = true
         
